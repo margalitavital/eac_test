@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: date-picker-app-9b624
+  version: 1.0.0
+  description: A frontend app displaying date pickers for 7, 14, 21, and 30 days from today
+
+assets:
+  - ref: ./assets/date-picker-app/asset.yaml

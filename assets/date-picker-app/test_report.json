@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "total": 13,
+    "passed": 13,
+    "failed": 0,
+    "score": 100,
+    "timestamp": 1789023037795,
+    "timestampIso": "2026-09-10T06:50:37.795Z",
+    "coverage": 100
+  },
+  "sections": [
+    {
+      "name": "Vercel Tests",
+      "marker": "vercel_tests",
+      "total": 13,
+      "passed": 13,
+      "failed": 0,
+      "skipped": 0,
+      "score": 100,
+      "tests": [
+        {
+          "name": "toInputDate formats a date as YYYY-MM-DD",
+          "outcome": "passed",
+          "duration": 0.0034
+        },
+        {
+          "name": "toInputDate pads single-digit months and days",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "fromInputDate parses a valid YYYY-MM-DD string",
+          "outcome": "passed",
+          "duration": 0.0004
+        },
+        {
+          "name": "fromInputDate returns null for malformed input",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "fromInputDate returns null for out-of-range calendar values",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "fromInputDate and toInputDate round-trip",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "addDays adds a positive offset",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "addDays supports negative offsets",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "addDays rolls over month and year boundaries",
+          "outcome": "passed",
+          "duration": 0.0014
+        },
+        {
+          "name": "addDays does not mutate the input date",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "formatLongDate renders a human-readable date",
+          "outcome": "passed",
+          "duration": 0.0194
+        },
+        {
+          "name": "startOfDay strips the time component",
+          "outcome": "passed",
+          "duration": 0.0002
+        },
+        {
+          "name": "all four offsets computed from a fixed today match the spec",
+          "outcome": "passed",
+          "duration": 0.0012
+        }
+      ]
+    }
+  ]
+}
